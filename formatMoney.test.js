@@ -8,6 +8,6 @@ describe('formatMoney function', () => {
 
   it ('leaves off cents when its whole dollars', () => {
     expect(formatMoney(5000)).toEqual('$50');
-    expect(formatMoney(100)).toEqual('$1');
+    expect(formatMoney(100)).toEqual('$1.0');
   });
 })
